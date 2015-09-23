@@ -16,26 +16,36 @@ To get started with NativeScript apps please use our [getting started with Nativ
 
 1. Make sure you have the [NativeScript Command-line Interface](https://www.npmjs.com/package/nativescript) and (grunt-cli)[https://github.com/gruntjs/grunt-cli] installed as well as all the prerequisites for the NativeScript development.
 
-2. Clone and install npm dependencies
+2. Clone and install dependencies
   ```
   git clone https://github.com/NativeScript/sample-TelerikNEXT.git
   cd sample-TelerikNEXT
-  npm install
+  tns install
   ```
 
-3. Add TelerikUI libraries
+3. Install TypeScript definitions
+
+  Get TypeScript definitions and extract to tns-core-modules
+  ```  
+  curl -L https://github.com/NativeScript/NativeScript/releases/download/v1.3.0/tns-definitions-1.3.0.tgz > tns-definitions-1.3.0.tgz
+  tar -xzkf tns-definitions-1.3.0.tgz --strip 1 -C node_modules/tns-core-modules 2>/dev/null
+  ```
+4. Copy platform specific resources
   
-  3.1. For Adnroid - extract you distribution of Telerik UI for Android inside `\install\lib\Telerik_UI_for_Android` folder and then run:
+  Curretly we copy platform specific resources such as custom AndroidManifest.xml manually. 
+  This will be solved with {N} 1.4+   
+  
   ```
-  grunt init-android
+  cp -R install/android platforms/
+  cp -R install/ios platforms/
   ```
 
-  3.2. For iOS- extract you distribution of Telerik UI for iOS inside `\install\lib\Telerik_UI_for_iOS` folder and then run:
-  ```
-  grunt init-ios
-  ```
+For *NIX systems the following script runs the sample directly:
+
+curl https://raw.githubusercontent.com/NativeScript/sample-Tasks/master/run.sh | bash
 
 ## Developer workflow:
 1. Make some changes to the app
-2. Run the TypeScript compiler: `grunt ts:build`
+2. Run the TypeScript compiler: `grunt ts:build` (or just `grunt`)
 3. Run in emulator `tns run android/ios`
+4. Optional: You can try [livesync](https://docs.nativescript.org/getting-started#development-workflow) feature of {N}
