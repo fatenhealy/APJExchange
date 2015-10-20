@@ -27,13 +27,13 @@ To get started with NativeScript apps please use our [getting started with Nativ
 
   Get TypeScript definitions and extract to tns-core-modules
   ```  
-  curl -L https://github.com/NativeScript/NativeScript/releases/download/v1.3.0/tns-definitions-1.3.0.tgz > tns-definitions-1.3.0.tgz
-  tar -xzkf tns-definitions-1.3.0.tgz --strip 1 -C node_modules/tns-core-modules 2>/dev/null
+  curl -L https://github.com/NativeScript/NativeScript/releases/download/v1.4.0/tns-definitions-1.4.0.tgz > tns-definitions-1.4.0.tgz
+  tar -xzkf tns-definitions-1.4.0.tgz --strip 1 -C node_modules/tns-core-modules 2>/dev/null
   ```
 4. Copy platform specific resources
   
   Curretly we copy platform specific resources such as custom AndroidManifest.xml manually. 
-  This will be solved with {N} 1.4+   
+  This will be solved with {N} 1.5+   
   
   ```
   cp -R install/android platforms/
@@ -42,10 +42,10 @@ To get started with NativeScript apps please use our [getting started with Nativ
 
 For *NIX systems the following script runs the sample directly:
 
-curl https://raw.githubusercontent.com/NativeScript/sample-Tasks/master/run.sh | bash
+curl https://raw.githubusercontent.com/NativeScript/sample-TelerikNEXT/master/run.sh | bash
 
 ## Developer workflow:
 1. Make some changes to the app
 2. Run the TypeScript compiler: `grunt ts:build` (or just `grunt`)
-3. Run in emulator `tns run android/ios`
+3. Run in emulator `tns run android/ios --emulator`
 4. Optional: You can try [livesync](https://docs.nativescript.org/getting-started#development-workflow) feature of {N}
