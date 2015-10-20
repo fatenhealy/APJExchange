@@ -41,9 +41,9 @@ To get started with NativeScript apps please use our [getting started with Nativ
   ```
 
 For *NIX systems the following script runs the sample directly:
-
-curl https://raw.githubusercontent.com/NativeScript/sample-TelerikNEXT/master/run.sh | bash
-
+  ```
+  curl https://raw.githubusercontent.com/NativeScript/sample-TelerikNEXT/master/run.sh | bash
+  ```
 ## Developer workflow:
 1. Make some changes to the app
 2. Run the TypeScript compiler: `grunt ts:build` (or just `grunt`)
