@@ -1,4 +1,4 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+<Page xmlns="http://www.nativescript.org/tns.xsd"
   navigatedTo="pageNavigatedTo" actionBarHidden="true">
 
   <GridLayout rows="auto, *">
