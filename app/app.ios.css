@@ -61,6 +61,7 @@ SegmentedBar {
 
 .page-header {
     background-image: url('res://background');
+    background-size: cover;
 }
 
 .page-title {

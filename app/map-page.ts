@@ -6,7 +6,7 @@ import observable = require("data/observable");
 import appViewModel = require("./app-view-model");
 import rndApi = require("./officeRnD/officeRnDApi");
 
-export function pageNavigatedTo(args: observable.EventData) {
+export function pageNavigatingTo(args: pages.NavigatedData) {
     var page = <pages.Page>args.object;
     var roomInfo: appViewModel.RoomInfo;
     
