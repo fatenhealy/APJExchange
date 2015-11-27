@@ -9,7 +9,7 @@ import platform = require("platform");
 import button = require("ui/button");
 import appViewModel = require("./app-view-model");
 
-export function pageNavigatingTo(args: pages.NavigatedData) {
+export function pageLoaded(args: observable.EventData) {
     var page = <pages.Page>args.object;
 
     // Enable platform specific feature (in this case Android page caching)

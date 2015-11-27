@@ -1,6 +1,6 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd"
       xmlns:drawer="nativescript-telerik-ui/sidedrawer"
-      navigatingTo="pageNavigatingTo" actionBarHidden="true">
+      loaded="pageLoaded" actionBarHidden="true">
   <drawer:RadSideDrawer id="SideDrawer">  
       <drawer:RadSideDrawer.drawerTransition>
           <drawer:SlideInOnTopTransition/>
