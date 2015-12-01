@@ -200,7 +200,11 @@ function updateFavourites() {
     localSettings.setString(FAVOURITES, newValue);
 }
 
-var el = new everlive("mzacGkKPFlZUfbMq");
+var el = new everlive({
+    apiKey: 'mzacGkKPFlZUfbMq',
+    scheme: 'https'
+    });
+    
 var expandExp = {
     "speakers": true,
     "roomInfo": true

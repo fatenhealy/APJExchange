@@ -11,7 +11,7 @@ import list = require("ui/list-view");
 import scrollView = require("ui/scroll-view");
 import appViewModel = require("./app-view-model");
 
-export function pageNavigatedTo(args: observable.EventData) {
+export function pageNavigatingTo(args: pages.NavigatedData) {
     var page = <pages.Page>args.object;
 
     page.bindingContext = page.navigationContext;

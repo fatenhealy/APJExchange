@@ -1,28 +1,23 @@
 {
-	"name": "sample-TelerikNEXT",
-	"description": "Telerik ...",
-	"version": "1.0.0",
-	"devDependencies": {
-		"grunt": "0.4.5",
-		"grunt-contrib-clean": "0.6.0",
-		"grunt-contrib-copy": "0.8.0",
-		"grunt-env": "0.4.4",
-		"grunt-file": "1.0.2",
-		"grunt-shell": "1.1.2",
-		"grunt-ts": "5.0.0-beta.5",
-		"typescript": "1.6.2"
-	},
-	"nativescript": {
-		"id": "org.nativescript.TelerikNEXT",
-		"tns-ios": {
-			"version": "1.4.0"
-		},
-		"tns-android": {
-			"version": "1.4.0"
-		}
-	},
-	"dependencies": {
-		"nativescript-telerik-ui": "0.0.10",
-		"tns-core-modules": "1.4.0"
-	}
+  "name": "sample-TelerikNEXT",
+  "description": "Telerik ...",
+  "version": "1.0.0",
+  "nativescript": {
+    "id": "org.nativescript.TelerikNEXT",
+    "tns-android": {
+      "version": "1.5.0"
+    },
+    "tns-ios": {
+      "version": "1.5.0"
+    }
+  },
+  "dependencies": {
+    "Info-plist": "file:options",
+    "nativescript-telerik-ui": "^0.1.1",
+    "tns-core-modules": "1.5.0"
+  },
+  "devDependencies": {
+    "nativescript-dev-typescript": "^0.2.2",
+    "typescript": "^1.6.2"
+  }
 }
