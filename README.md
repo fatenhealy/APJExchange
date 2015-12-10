@@ -27,3 +27,5 @@ To get started with NativeScript apps please use our [getting started with Nativ
     `tns run ios|android [--emulator]`
 
     The `--emulator` keyword instructs the CLI to load the iOS simulator or an android emulator depending on the platform you want.
+
+![](https://ga-beacon.appspot.com/UA-111455-24/nativescript/sample-TelerikNext?pixel) 
