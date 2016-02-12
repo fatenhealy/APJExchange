@@ -12,7 +12,7 @@
     }
   },
   "dependencies": {
-    "Info-plist": "file:options",
+    "teleriknext-options": "file:options",
     "nativescript-telerik-ui": "^0.1.1",
     "tns-core-modules": "1.5.1"
   },
