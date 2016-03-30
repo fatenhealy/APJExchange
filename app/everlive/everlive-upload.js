@@ -403,3 +403,4 @@ for (i = 0; i < speakersStatic.length; i++) {
         console.log("error: " + error);
     });
 }
+//# sourceMappingURL=everlive-upload.js.map

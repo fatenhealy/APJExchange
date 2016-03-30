@@ -1,3 +1,4 @@
+"use strict";
 var frame = require("ui/frame");
 var view = require("ui/core/view");
 var platform = require("platform");
@@ -79,3 +80,4 @@ function goToUrl(args) {
     }
 }
 exports.goToUrl = goToUrl;
+//# sourceMappingURL=main-page.js.map
