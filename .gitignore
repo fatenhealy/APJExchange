@@ -2,6 +2,7 @@
 */obj
 
 *.dat
+*.map
 *.suo
 
 !bootstrap.js
