@@ -1,5 +1,9 @@
 /* Page */
 Page {
+    background-color: black;
+}
+
+.page-content {
     background-color: white;
 }
 

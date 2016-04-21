@@ -3,7 +3,7 @@
   "description": "Telerik ...",
   "version": "1.0.0",
   "nativescript": {
-    "id": "org.nativescript.TelerikNEXT",
+    "id": "com.telerik.TelerikNEXT",
     "tns-android": {
       "version": "1.7.1"
     },
