@@ -1,7 +1,8 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd"
-  navigatingTo="pageNavigatingTo" actionBarHidden="true">
+  navigatingTo="pageNavigatingTo" actionBarHidden="true"
+  backgroundSpanUnderStatusBar="true">
 
-  <GridLayout rows="auto, *" swipe="backSwipe">
+  <GridLayout rows="auto, *" swipe="backSwipe" class="page-content">
     <!-- HEADER -->
     <GridLayout columns="auto, *" rows="auto, auto" cssClass="page-header">
       <GridLayout cssClass="action-bar" colSpan="2">

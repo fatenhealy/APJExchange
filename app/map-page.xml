@@ -1,7 +1,8 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd"
-  navigatingTo="pageNavigatingTo" actionBarHidden="true">
+  navigatingTo="pageNavigatingTo" actionBarHidden="true"
+  backgroundSpanUnderStatusBar="true">
 
-  <GridLayout rows="auto, *">
+  <GridLayout rows="auto, *" class="page-content">
     <!-- HEADER -->
     <StackLayout cssClass="page-header">
       <GridLayout cssClass="action-bar">
